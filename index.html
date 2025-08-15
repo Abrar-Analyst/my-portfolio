@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abrar - Data Science & Full-Stack Journey</title>
+    <title>Abrar Analyst - Data Science & Full-Stack Portfolio</title>
     <style>
         * {
             margin: 0;
@@ -13,13 +13,14 @@
         
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
-            color: #333;
         }
         
         .container {
-            max-width: 1200px;
+            max-width: 1000px;
             margin: 0 auto;
             padding: 2rem;
         }
@@ -34,19 +35,19 @@
             margin-bottom: 2rem;
         }
         
-        .tech-stack {
+        .about-contact {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
             margin-top: 2rem;
         }
         
-        .tech-card {
+        .about, .contact {
             background: rgba(255, 255, 255, 0.9);
             backdrop-filter: blur(5px);
             border-radius: 15px;
-            padding: 1.5rem;
-            border: 1px solid rgba(255, 255, 255, 0.18);
+            padding: 2rem;
+            box-shadow: 0 4px 16px rgba(31, 38, 135, 0.2);
         }
         
         .progress-section {
@@ -55,24 +56,27 @@
             border-radius: 20px;
             padding: 2rem;
             margin-top: 2rem;
+            text-align: center;
         }
         
         .progress-bar {
             width: 100%;
-            height: 8px;
+            height: 10px;
             background: #e0e0e0;
             border-radius: 10px;
             overflow: hidden;
+            margin: 1rem 0;
         }
         
         .progress-fill {
             height: 100%;
             background: linear-gradient(90deg, #4CAF50, #2196F3);
-            width: 0.43%;
-            transition: width 0.5s ease;
+            width: 0.45%;
+            transition: width 2s ease;
+            border-radius: 10px;
         }
         
-        .windows-badge {
+        .badge {
             display: inline-block;
             background: linear-gradient(45deg, #0078d4, #00bcf2);
             color: white;
@@ -81,72 +85,102 @@
             font-size: 0.9rem;
             margin: 0.25rem;
         }
+        
+        .contact-item {
+            margin: 1rem 0;
+            padding: 0.5rem;
+            background: rgba(0, 120, 212, 0.1);
+            border-radius: 8px;
+            border-left: 4px solid #0078d4;
+        }
+        
+        @media (max-width: 768px) {
+            .about-contact {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="hero">
-            <h1>Abrar Asiri</h1>
-            <h1>🚀 Data Science & Full-Stack Journey</h1>
-            <p><strong>Windows 11 + WSL2 Development Environment</strong></p>
-            <p>224-day structured path to job readiness</p>
+            <h1>🚀 Abrar - Data Science & Full-Stack Developer</h1>
+            <p><strong>224-Day Structured Learning Journey</strong></p>
+            <p>Transforming from beginner to job-ready professional</p>
             
             <div style="margin: 1rem 0;">
-                <span class="windows-badge">Windows 11</span>
-                <span class="windows-badge">WSL2 Ubuntu</span>
-                <span class="windows-badge">VS Code</span>
-                <span class="windows-badge">Python</span>
-                <span class="windows-badge">Node.js</span>
+                <span class="badge">Python</span>
+                <span class="badge">Machine Learning</span>
+                <span class="badge">React</span>
+                <span class="badge">Node.js</span>
                 <span class="badge">GitHub</span>
             </div>
         </div>
-
-        <section id="about" style="margin-top:2rem; padding:1rem; border-left:4px solid #0b6; background:#f7fff7">
-  <h2>About</h2>
-  <p>Hi — I’m <strong>Abrar</strong>. I’m learning data science and full‑stack development. This portfolio documents small daily wins as I build projects and skills.</p>
-  <h3>Contact</h3>
-  <p>Email: abrarasiri017@gmail.com</p>
-  <p>GitHub: <a href="https://github.com/abrar-analyst" target="_blank" rel="noopener">github.com/abrar-analyst</a></p>
-</section>
         
-        <div class="contact-item">
+        <div class="about-contact">
+            <div class="about">
+                <h2>🎯 About My Journey</h2>
+                <p>I'm on a <strong>224-day intensive learning path</strong> to become job-ready in both Data Science and Full-Stack Development.</p>
+                
+                <p><strong>Current Focus:</strong></p>
+                <ul>
+                    <li>📊 Data Science fundamentals (Python, pandas, scikit-learn)</li>
+                    <li>💻 Web Development (HTML, CSS, JavaScript, React)</li>
+                    <li>🔧 Development tools and best practices</li>
+                    <li>📈 Building real-world projects</li>
+                </ul>
+                
+                <p><strong>Background:</strong> Committed learner taking a systematic approach to tech career transition.</p>
+            </div>
+            
+            <div class="contact">
+                <h2>📞 Connect With Me</h2>
+                
+                <div class="contact-item">
+                    <strong>🐙 GitHub:</strong><br>
+                    <a href="https://github.com/abrar-analyst" target="_blank">github.com/abrar-analyst</a>
+                </div>
+                
+                <div class="contact-item">
+                    <strong>💼 LinkedIn:</strong><br>
+                    <a href="#" target="_blank">linkedin.com/in/your-profile</a><br>
+                    <small>(Add your LinkedIn URL)</small>
+                </div>
+                
+                <div class="contact-item">
+                    <strong>📧 Email:</strong><br>
+                    your.email@example.com<br>
+                    <small>(Add your professional email)</small>
+                </div>
+                
+                <div class="contact-item">
                     <strong>🌐 Portfolio Status:</strong><br>
                     <span style="color: #4CAF50;">✅ Live & Active</span>
                 </div>
             </div>
         </div>
-
-        <div class="tech-stack">
-            <div class="tech-card">
-                <h3>📊 Data Science Stack</h3>
-                <ul>
-                    <li>Python 3.12 in WSL2</li>
-                    <li>Jupyter Labs</li>
-                    <li>Pandas, NumPy, Scikit-learn</li>
-                    <li>Matplotlib, Seaborn, Plotly</li>
-                </ul>
+        
+        <div class="progress-section">
+            <h2>📈 Learning Progress Tracker</h2>
+            <p><strong>Day 1 of 224 Complete!</strong></p>
+            <p>Setup ✅ | Portfolio Live ✅ | Ready for Mathematics ✅</p>
+            
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
             </div>
             
-            <div class="tech-card">
-                <h3>💻 Full-Stack Tools</h3>
-                <ul>
-                    <li>Node.js LTS via NVM</li>
-                    <li>React, Angular CLIs ready</li>
-                    <li>Live Server for development</li>
-                    <li>Git integration</li>
-                </ul>
-            </div>
-            
-            <div class="tech-card">
-                <h3>🛠️ Windows 11 Features</h3>
-                <ul>
-                    <li>Windows Terminal</li>
-                    <li>PowerToys utilities</li>
-                    <li>Developer Mode enabled</li>
-                    <li>Docker Desktop ready</li>
-                </ul>
-            </div>
+            <p><strong>0.45% Complete</strong> • Started: August 15, 2025</p>
+            <p><em>Next milestone: Complete OpenLearn Mathematics foundations</em></p>
         </div>
     </div>
+    
+    <script>
+        // Animate progress bar on page load
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                document.querySelector('.progress-fill').style.width = '0.45%';
+            }, 1000);
+        });
+    </script>
 </body>
 </html>
